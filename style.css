@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,500,700&display=swap');
+
+body {
+  background-image: url("https://i.pinimg.com/originals/64/f1/ef/64f1ef6ca296e346d0664d3e3669ac06.jpg");
+  font-family: 'Roboto', sans-serif;
+  color: #3B3C41;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #474545;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 4px;
+  line-height: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+a {
+  color: #E168F7;
+  text-decoration: none;
+}
+
+/*a:hover {
+  text-decoration: underline;
+}*/
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #3B3C41;
+  font-size: 15px ;
+  line-height: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #E168F7; /* Green */
+  border: none;
+  color: white;
+  text-shadow:0 2px 0 #00ecff, 0 -4px 0 #ff4045;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #4195DE;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  /*align-self: center;*/
+}
+
+.card {
+  margin: 20px auto;
+  padding: 30px 30px 30px 30px;
+  /*width: 700px;*/
+  background-color: #F7F8D7;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  width: 10vw;
+  border-radius: 50%;
+}
+
+.list-inline {
+  display: inline;
+  list-style: none;
+  margin: 0 15px;
+}
+
+.trollface {
+  background: url("images/profile_pic.png");
+  width: 10vw;
+  background-size: contain;
+  height: 10vw;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.trollface:hover {
+  background: url("https://cdn11.bigcommerce.com/s-7va6f0fjxr/images/stencil/1280x1280/products/41220/57459/Meme-Decals-Troll-Face-Meme-Decal-Sticker-Vinyl-Decal-Sticker__75837.1506197722.jpg?c=2&imbypass=on") no-repeat;
+  background-size: contain;
+}
+
+#logo-big {
+  font-size: 2vw;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #E168F7;
+  text-align: center;
+}
+
+#logo-big:hover {
+  color: #4195DE;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .list-inline {
+    display: list-item;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .card {
+    text-align: center;
+  }
+  .list-inline {
+    display: list-item;
+  }
+  h2 {
+    text-align: center;
+    font-size: 5px;
+  }
+}
