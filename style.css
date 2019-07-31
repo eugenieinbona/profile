@@ -111,9 +111,9 @@ img {
 }
 
 #logo-big {
-  font-size: 2vw;
-  padding-left: 7px;
-  padding-right: 7px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: #E168F7;
   text-align: center;
 }
@@ -134,6 +134,7 @@ img {
   }
   .list-inline {
     display: list-item;
+    padding: 10px 10px;
   }
 }
 
@@ -146,9 +147,10 @@ img {
   }
   .list-inline {
     display: list-item;
+    padding: 10px 10px;
   }
   h2 {
     text-align: center;
-    font-size: 5px;
+    font-size: 15px;
   }
 }
